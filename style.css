@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Roboto";
+}
+
+.header {
+    background-color: #C62828;
+    padding: 10px 20px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .title {
+    font-size: 26px;
+    font-weight: bold;
+    color: white;
+    margin-right: 100px;
+}
+
+.header .searchbar {
+    height: 29px;
+}
+
+.header .searchbar input {
+    border: none;
+    width: 300px;
+    font-size: 18px;
+    border-radius: 8px 0 0 8px;
+    padding: 4px 10px;
+    color: #444;
+}
+
+.header .searchbar button {
+    height: 100%;
+    border: 0;
+    font-size: 20px;
+    padding: 0 15px;
+    border-radius: 0 8px 8px 0;
+    color: #C62828;
+    background-color: #CCC;
+}
+
+.header .searchbar button:hover {
+    background-color: #AAA;
+    cursor: pointer;
+}
